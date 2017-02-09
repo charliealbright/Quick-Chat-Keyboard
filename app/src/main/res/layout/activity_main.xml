@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:fitsSystemWindows="true"
+    tools:context="com.jankapotamus.quickchatkeyboard.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/rl_shield_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/rl_shield_logo"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="64dp"
+            android:layout_marginStart="64dp"
+            android:layout_marginEnd="64dp"/>
+
+        <TextView
+            style="@style/TextView.Huge"
+            android:id="@+id/textview_app_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/app_name"
+            android:layout_marginTop="16dp"
+            android:layout_below="@+id/rl_shield_image"/>
+
+        <Button
+            style="@style/Button"
+            android:id="@+id/button_chat_board"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textview_app_name"
+            android:text="Chat Board"/>
+
+        <Button
+            style="@style/Button"
+            android:id="@+id/button_settings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button_chat_board"
+            android:text="Settings"/>
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>
