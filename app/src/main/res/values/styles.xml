@@ -28,7 +28,7 @@
     </style>
 
     <!-- BUTTONS -->
-    <style name="Button" parent="Widget.AppCompat.Button">
-
+    <style name="Button" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:textSize">16dp</item>
     </style>
 </resources>

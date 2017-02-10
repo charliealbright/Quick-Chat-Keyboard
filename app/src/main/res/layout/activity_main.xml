@@ -39,6 +39,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/textview_app_name"
+            android:layout_marginTop="32dp"
+            android:layout_marginStart="64dp"
+            android:layout_marginEnd="64dp"
             android:text="Chat Board"/>
 
         <Button
@@ -47,6 +50,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/button_chat_board"
+            android:layout_marginStart="64dp"
+            android:layout_marginEnd="64dp"
             android:text="Settings"/>
     </RelativeLayout>
 
