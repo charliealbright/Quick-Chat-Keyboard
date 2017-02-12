@@ -23,12 +23,17 @@
     </style>
 
     <style name="TextView.Huge" parent="TextView">
-        <item name="android:textSize">28dp</item>
-        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">42dp</item>
+        <item name="fontPath">fonts/Orbitron-Black.ttf</item>
     </style>
 
     <!-- BUTTONS -->
     <style name="Button" parent="Widget.AppCompat.Button.Colored">
-        <item name="android:textSize">16dp</item>
+        <item name="fontPath">fonts/Orbitron-Medium.ttf</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
     </style>
 </resources>
